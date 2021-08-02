@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>HFP Design</title>
+	<link rel="stylesheet" type="text/css" href="css/service.css">
+	<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="css/media.css">
+</head>
+<body>
+	<header>
+
+	<div class="header">
+		<div>
+		<img src="image/logo.png">
+		</div>
+		<nav>
+		<ul class="list">
+			<li><a href="index.html">Home</a></li>
+			<li><a href="About.html">About Us</a></li>
+			<li><a href="Service.html">Our Service</a></li>
+			<li><a href="contact.html">Contact Us</a></li>
+		</ul>
+		</nav>
+		<div class="pan">
+			<span></span>
+			<span></span>
+			<span></span>
+		</div>
+	</div>
+	<div class="dis">
+		<h1>OUR SERVICES</h1>
+		<div class="butn">
+			<a href="index.html">Home</a>&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp;<span>service</span>
+		</div>
+	</div>
+</header>
+<main>
+	<!--this second section on our main part of our project-->
+	<center>	
+	<section class="fir-sec">
+		<h3>OUR AWESOME SERVICES</h3>
+		<p>Awesome HFP Designing Services For Your Better tomorrow with looking well</p>
+		<div class="cont-box">
+			<div class="boxes">
+				<img src="image/box1.jpg">
+				<div class="des">
+				<h5>Gentle Dress</h5>
+				<p>HFP Design we got dress of gentle man like souts</p>
+				</div>
+			</div>
+			<div class="boxes">
+				<img src="image/couple.jpg">
+				<div class="des">
+				<h5>Couple Dress</h5>
+				<p>HFP Design we also has dresses of couple like Ansable dresses.</p>
+				</div>
+			</div>
+			<div class="boxes">
+				<img src="image/weed.jpg">
+				<div class="des">
+				<h5>Wedding dresses </h5>
+				<p>HFP Design we design for you dresses of you wedding ceremony.</p>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="slide">
+		<h1>CHOOSE A BEST DESIGN FOR YOU IN THESE</h1>
+		<div class="button">
+			<button id="showall"><a>All</a></button>
+			<button target="1" class="single" id="Complete"><a>Complete</a></button>
+			<button target="2" class="single" id="run"><a>Running</a></button>
+			<button target="3" class="single" id="upcom"><a>UpComing</a></button>
+		</div>
+		<div class="chs">
+			<div class="target" id="one">
+			<img src="image/1.jpg">
+			<img src="image/2.jpg">
+			</div>
+			<div class="target" id="two">
+			<img src="image/3.jpg">
+			<img src="image/4.jpg">
+			</div>
+			<div class="target" id="three">
+			<img src="image/5.jpg">
+			<img src="image/6.jpg">	
+			</div>
+		</div>
+	</section>
+	</center>
+</main>
+<footer>	
+			<div class="footer">
+			<div class="fot">
+				<h4>ABOUT HFP DESIGN</h4>
+				<P>HFP Design is here for Your we make good dresses if you want any you can see it by visiting us on those social media are down below.</P>
+				<div class="foicon">
+					<a href="#"><i class="fa fa-facebook"></i></a>
+					<a href="#"><i class="fa fa-instagram"></i></a>
+					<a href="#"><i class="fa fa-twitter"></i></a>
+					<a href="#"><i class="fa fa-whatsapp"></i></a>
+				</div>
+			</div>
+			<div class="fot">
+				<h4>INFORMATION</h4>
+				<ul>
+					<li class="fa fa-angle-right">&nbsp;<a href="">Home</a></li>
+					<li class="fa fa-angle-right">&nbsp;<a href="">About</a></li>
+					<li class="fa fa-angle-right">&nbsp;<a href="">Service</a></li>
+					<li class="fa fa-angle-right">&nbsp;<a href="">Product</a></li>
+					<li class="fa fa-angle-right">&nbsp;<a href="">Contact</a></li>
+				</ul>
+			</div>
+			<div class="fot loc">
+				<h4>CONTACT US</h4>
+				<i class="fa fa-map">&nbsp;&nbsp;Address: KUGISOZI IN KIGALI At <br> <center>DUHAHIRANE MARKET</center></i><br>
+				<i class="fa fa-phone-square">&nbsp;&nbsp;+250788248411</i><br>
+				<i class="fa fa-envelope">&nbsp;&nbsp; Felixgakuba1@gmail.com</i>
+			</div>
+			</div>
+			<div class="footer1">
+				<center>
+					<p> &copy; Copyright All Rights Reserved. 2021 Designed by Gastinzi</p>
+				</center>
+			</div>
+	</footer>
+<script type="text/javascript" src="js/jquery-3.5.1.min.js"></script>
+	  <script type="text/javascript">
+
+	  	$('.pan').click(function(){
+ 			$('.list').toggle("slow");
+ 		});	
+	  	
+ 	jQuery(function(){
+ 	   	jQuery('#showall').click(function(){
+ 	   	jQuery('.target').show();
+ 	});
+
+ 	   	jQuery('#Complete').click(function(){
+ 	   		jQuery('.target').hide();
+ 	   		jQuery('#one').show();
+ 	   	});
+ 	   	jQuery('#run').click(function(){
+ 	   		jQuery('.target').hide();
+ 	   		jQuery('#three').show();
+ 	   		
+ 	   	});
+ 	   	jQuery('#upcom').click(function(){
+ 	   		jQuery('.target').hide();
+ 	   		jQuery('#two').show();
+ 	   	});
+ 	});
+
+ </script>
+</body>
+</html>

@@ -1,0 +1,389 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6{
+  font-family: "Playfair Display", Times, serif;
+}
+
+:root{
+	--primary-color: #2b2a27;
+	--second-color: #F3F6FF;
+}
+
+header{
+	position: relative;
+	background-image: linear-gradient(rgb(0,0,0,0.5),rgb(0,0,0,0.5)), url('../image/hm.jpg');
+	height: 100vh;
+	width: 100%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	display: flex;
+}
+
+.header{
+	position: fixed;
+	z-index: 2;
+	display: flex;
+	justify-content: space-around;
+	width: 100%;
+	background-color: #fff;
+	margin-bottom: 0px;
+
+}
+
+.header img{
+	width: 50%;
+}
+
+.header ul{
+	list-style: none;
+	margin-left: 150px;
+}
+
+.header ul li{
+	float: left;
+	margin: 10px 10px 0px 0px;
+	text-align: center;
+	width: 140px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	cursor: pointer;
+}
+
+.header ul li a{
+	text-decoration: none;
+	color: #2b2a27;
+	font-size: 20px;
+	font-weight: 400;
+}
+
+.header ul li:hover a{
+	color: #169bda;
+}
+
+.pan{
+	width: 47px;
+	margin: 20px 20px;
+	border-radius: 2px;
+	cursor: pointer;
+}
+
+.pan span{
+	width: 19px;
+	padding: 3px;
+	margin-left: 10px;
+	display: block;
+	border-bottom: 2px solid #169bda;
+}
+
+
+.container1{
+	margin-left: 380px;
+	padding-top: 230px;
+}
+
+.container1 h1{
+	text-align: center;
+	font-size: 59px;
+	letter-spacing: 2px;
+	color: #F3F6FF;
+	line-height: 1.5;
+}
+
+.container1 p{
+	font-size: 1.4rem;
+	line-height: 1.7;
+	text-align: center;
+	color: var(--second-color);
+}
+
+.container1 a button{
+	padding: 20px;
+	cursor: pointer;
+	margin: 20px;
+	background-color: #169bda;
+	border: none;
+	color: var(--second-color);
+	font-size: 1.5rem;
+}
+
+.container1 a button:hover{
+	background-color: var(--primary-color);
+
+}
+/*this for first section of our main part on our project */
+.section1{
+	background: #f8f9fa;
+	padding-top: 60px;
+}
+
+.section1 h2{
+	text-align: center;
+	font-size: 39px;
+	line-height: 1.9;
+	font-weight: 300;
+}
+
+.descript{
+	text-align: center;
+	color: #777777;
+	margin-bottom: 50px;
+}
+
+.container2{
+	display: flex;
+	justify-content: center;
+	margin: 17px;
+}
+
+
+.box{
+	background: #fff;
+	width: 24%;
+	margin: 17px;
+	border-radius: 2px;
+	text-align: center;
+	position: relative;
+}
+
+.box:hover .icon{
+	display: block;
+	position: absolute;
+	top: 0px;
+	background:  #252531;
+	width: 100%;
+	height: 45%;
+	padding-top: 135px;
+
+} 
+
+.box img{
+	width: 100%;
+	height: 293px;
+	margin-bottom: 0px;
+	margin-top: 0px;
+}
+
+
+.parag{
+	background: #169bda;
+	width: 100%;
+	margin-top: 0px;
+	padding: 20px 0px;
+	color: #fff;
+}
+
+
+.icon{
+	position: relative;
+	display: none;
+	text-align: center;
+}
+
+.icon p{
+	position: absolute;
+	top: 70px;
+	left: 140px;
+	font-size: 19px;
+	color: var(--second-color);
+}
+
+.icon a{
+	text-decoration: none;
+	color: var(--second-color);
+	font-size: 20px;
+	margin-left: 10px;
+	padding: 13px;
+	border: 1px solid var(--second-color);
+}
+.icon a:hover{
+	background-color: #169bda;
+	color: #252531;
+	border-color: #169bda;
+}
+
+
+/*this for second section part of our project*/
+
+.fir-sec{
+	background: #fff;
+	padding-top: 50px;
+}
+
+.fir-sec h3{
+	font-size: 30px;
+	font-weight: 450;
+	letter-spacing: 1px;
+	line-height: 1.7;
+	color: var(--primary-color);
+	width: 430px;
+}
+
+.fir-sec p{
+	padding-top: 10px;
+	padding-bottom: 20px;
+	letter-spacing: 0.4;
+	color: gray;
+	font-size: 17px;
+}
+
+.cont-box{
+	display: flex;
+	justify-content: center;
+}
+
+.boxes{
+	position: relative;
+	width: 24%;
+	height: 67vh;
+	background: #6666;
+	margin: 35px;
+}
+
+.boxes img{
+	margin-top: 0px;
+	width: 100%;
+	height: 100%;
+}
+
+.des{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	background: linear-gradient(45deg, #03a9f4, rgba(3,169,244,0.5));
+	width: 100%;
+	height: 100%;
+	display: none;
+}
+
+.des h5{
+	color: #fff;
+	font-size: 25px;
+	font-weight: 400;
+	padding-top: 130px;
+}
+
+.des p{
+	color: #fff;
+	line-height: 1.4;
+
+}
+
+.boxes:hover .des{
+	display: block;
+}
+
+
+/*this for last part of our project*/
+
+.footer{
+	background-color: #252531;
+	display: flex;
+	justify-content: center;
+	padding: 50px 90px;
+}
+
+.fot{
+	width: 70%;
+	padding: 20px;
+	color: #ccc;
+}
+
+.fot h4{
+	letter-spacing: 1.6px;
+	font-size: 1.1rem;
+	font-weight: 400;
+	padding-bottom: 7px;
+	border-bottom: 2px solid #169bda;
+	margin-bottom: 10px;
+}
+
+.fot p{
+	line-height: 1.5;
+}
+
+.foicon{
+	padding-top: 10px;
+}
+
+.foicon i{
+	padding: 15px;
+	margin: 10px;
+	color: white;
+	border: 1px solid white;
+	border-radius: 50%;
+}
+
+.foicon i:hover{
+	cursor: pointer;
+	background-color: #169bda;
+	color: #252531;
+	border: none;
+
+}
+
+
+.fot ul{
+	list-style: none;
+}
+
+.fot ul li{
+	display: block;
+	font-size: 20px;
+	padding: 6px 10px;
+}
+
+.fot ul li a{
+	text-decoration: none;
+	color: #ccc;
+}
+
+.fot ul li a:hover{
+	color: #169bda;
+}
+
+.loc i{
+	font-size: 18px;
+	padding-top: 10px;
+	padding-bottom: 20px;
+}
+
+.footer1{
+	background-color: var(--primary-color);
+	padding: 30px;
+	color: var(--second-color);
+	letter-spacing: 1.6px;
+}
+
+
+.hidden{
+	visibility: hidden;
+	height: 0;
+}
+
+/*this for animation */
+
+
+@keyframes slideinfromleft{
+	0% {
+		transform: translateX(-100%);
+	}
+
+	100% {
+		transform: translateX(0);
+	}
+}
+
+
+
+@keyframes slideinfromleft{
+	0% {
+		transform: translateX(-100%);
+	}
+
+	100% {
+		transform: translateX(0);
+	}
+} 
